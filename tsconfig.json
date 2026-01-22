@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "allowJs": true,           // Permite compilar arquivos JavaScript
+    "checkJs": false,          // (Opcional) Se true, o TS reportará erros em arquivos JS
+    "jsx": "react-jsx",        // Necessário para o React 17+
+    "incremental": true,       // Acelera compilações futuras
+    "noEmit": true,            // Se estiver usando Vite ou CRA, eles cuidam da build
+    "esModuleInterop": true
+  }
+}
